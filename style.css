@@ -1,7 +1,7 @@
 /* the style for the nav */
-/* * {
+* {
   box-sizing: border-box;
-} */
+}
 
 body {
 	margin: 0;
@@ -48,15 +48,9 @@ ul.topnav li.right {float: right;}
 }
 
 /* the style for the gallery */
-.gallery{
-	margin: 0;
-}
-.gallery img{
-	padding:15px;
-	width:33.33%;
-}
-.gallery img:hover{
-	filter: grayscale(100%);
+.gallery{margin: 0;}
+
+.gallery img:hover{filter: grayscale(100%);}
 
 .row{
 	float: left;
@@ -64,9 +58,4 @@ ul.topnav li.right {float: right;}
 	padding: 5px;
 }
 
-/* .column img{
-	margin-top: 8px;
-	vertical-align: top;
-	width: 100%;
-}
 

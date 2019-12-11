@@ -49,12 +49,12 @@ ul.topnav li.right {float: right;}
 
 /* the style for the gallery */
 .gallery{
-	margin: 10px 50px;
+	margin: 0;
 }
 .gallery img{
 	transition: 1s;
 	padding:15px;
-	width:200px;
+	width:360px;
 }
 .gallery img:hover{
 	filter: grayscale(100%);

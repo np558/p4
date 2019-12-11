@@ -66,8 +66,8 @@ h3 {
 
 .img-container {
 	float: left;
-	Width: 560;
-	max-width: 100%;
+	Width: 460;
+	max-width: 33.33%;
 	padding: 10px;
 	height:auto;
 	vertical-align:top;

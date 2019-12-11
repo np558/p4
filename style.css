@@ -36,9 +36,6 @@ ul.topnav li.right {float: right;}
 }
 
 /* the site identity */
-.div{
-	margin:5px;
-}
 
 .header{
 	color: white;
@@ -66,12 +63,17 @@ h3 {
 
 .img-container {
 	float: left;
-	max-width: 33.33%;
+	width: 33.33%;
 	padding: 10px;
 	height:auto;
 	vertical-align:top;
 }
 
+/* .gallery {
+	max-width: 100%;
+	height: auto;
+} */
+	
 *, *:before, *:after {
     box-sizing: inherit;
 }

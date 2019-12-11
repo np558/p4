@@ -47,7 +47,7 @@ ul.topnav li.right {float: right;}
 
 /* the style for the gallery */
 .row {
-  padding: 0 4px;
+  padding: 0;
 }
 
 .column{
@@ -58,18 +58,10 @@ ul.topnav li.right {float: right;}
 .column ing{
 	margin-top: 8px;
 	vertical-align: top;
-	width: 33.33%;
+	width: 100%;
 }
 
 .column img:hover{
 	filter: grayscale(100%);
 	
 }
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-  .column {
-    -ms-flex: 50%;
-    flex: 50%;
-    max-width: 50%;
-  }

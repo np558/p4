@@ -37,14 +37,16 @@ ul.topnav li.right {float: right;}
 /* the site identity */
 .site_identity{
 	font-family: Arial, Helvetica, sans-serif;
+	color: white;
 	padding: 30em;
 }
 
 /* the style for the gallery */
 .gallery{
-	float: left;
 	width: 33.33%;
-	padding: 30em
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .gallery img:hover{

@@ -1,8 +1,4 @@
 /* the style for the nav */
-* {
-  box-sizing: border-box;
-}
-
 body {
 	margin: 0;
 	background-color:  #000000;
@@ -48,16 +44,17 @@ ul.topnav li.right {float: right;}
 }
 
 /* the style for the gallery */
-*::after,
+/* *::after,
 *::before {
   margin: 0;
   padding: 0;
   box-sizing: inherit; 
 }
-
+ */
 .image{
 	float: left;
 	width: 33.33%;
+	height: 360px;
 	padding: 0;
 }
 

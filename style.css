@@ -48,22 +48,23 @@ ul.topnav li.right {float: right;}
 }
 
 /* the style for the gallery */
-.row {
+.row: :after{
 /* 	display: -ms-flexbox; 
 	display: flex;
 	-ms-flex-wrap: wrap; 
 	flex-wrap: wrap; */
 	padding: 0 4px;
+	clear: both;
 }
 
 .column{
 	float: left;
 	width: 33.33%;
 	padding: 0;
-	height: 400px;
+	height: 360px;
 }
 
-.column ing{
+.column img{
 	margin-top: 8px;
 	vertical-align: top;
 	width: 100%;

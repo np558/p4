@@ -65,13 +65,13 @@ h3 {
 	float: left;
 	width: 33.33%;
 	padding: 10px;
-	height:auto;
 	vertical-align:top;
 }
 
-.row:after {
-  display: table;
-  clear: both;
+.gallery::after {
+	display: table;
+	max-width: 100%;
+	height: auto;
 }
 	
 *:before, *:after {

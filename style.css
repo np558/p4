@@ -48,11 +48,13 @@ ul.topnav li.right {float: right;}
 }
 
 /* the style for the gallery */
-.gallery{margin: 0;}
+.gallery{
+	margin: 0;
+}
 
 .gallery img:hover{filter: grayscale(100%);}
 
-.row{
+.gallery{
 	float: left;
 	width: 33.33%;
 	padding: 5px;

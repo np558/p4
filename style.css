@@ -60,7 +60,7 @@ div.gallery{
 }
 
 div.gallery img{
-	width:33.33%;
+	width:360px;
 	height:auto;
 	object-fit:cover;
 }

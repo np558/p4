@@ -40,13 +40,13 @@ ul.topnav li.right {float: right;}
 
 /* the site identity */
 
-.header{
+/* .header{
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;
-}
+} */
 
 /* the style for the gallery */
-.row {
+/* .row {
 	display: flex;
 	-ms-flex-wrap: wrap;
 	flex-wrap: wrap;
@@ -68,4 +68,31 @@ ul.topnav li.right {float: right;}
 .column img:hover{
 	filter: grayscale(100%);
 	
+}
+ */
+
+.header {
+  text-align: center;
+  padding: 32px;
+}
+
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create three equal columns that sits next to each other */
+.column {
+	max-width: 33.33%;
+	max-height: 360px;
+	padding: 10px;
+}
+
+.column img {
+ 	margin-top: 8px;
+	vertical-align: top;
+	width: 33.33%;
 }

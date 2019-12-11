@@ -48,19 +48,25 @@ ul.topnav li.right {float: right;}
 }
 
 /* the style for the gallery */
-.row{
-	padding: 0 4px;
-	clear: both;
+.gallery{
+	margin: 10px 50px;
 }
+.gallery img{
+	transition: 1s;
+	padding:15px;
+	width:200px;
+}
+.gallery img:hover{
+	filter: grayscale(100%);
 
-.column{
+.row{
 	float: left;
 	width: 33.33%;
 	padding: 0;
 	height: 300px;
 }
 
-.column img{
+/* .column img{
 	margin-top: 8px;
 	vertical-align: top;
 	width: 100%;
@@ -69,4 +75,4 @@ ul.topnav li.right {float: right;}
 .column img:hover{
 	filter: grayscale(100%);
 	
-}
+} */

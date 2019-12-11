@@ -1,8 +1,4 @@
 /* the style for the nav */
-* {
-  box-sizing: border-box;
-}
-
 body {
 	margin: 0;
 	background-color:  #000000;
@@ -48,23 +44,29 @@ ul.topnav li.right {float: right;}
 }
 
 /* the style for the gallery */
-/* *::after,
-*::before {
-  margin: 0;
-  padding: 0;
-  box-sizing: inherit; 
+* {
+  box-sizing: border-box;
 }
- */
+
+.img-container {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+	
+.clearfix:after {
+  display: grid;
+}
+/* 	
 div.gallery{
-/* 	float: left; */
+	float: left;
 	width: 100%;
 	padding: 0;
 	margin: 5px;
 	display: grid;
 }
-
+ */
 div.gallery img{
-	width:360px;
+	max-width:360px;
 	height:auto;
 	object-fit:cover;
 }

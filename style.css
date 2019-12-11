@@ -56,7 +56,10 @@ ul.topnav li.right {float: right;}
 	height:auto;
 	vertical-align:top;
 }
-	
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 
 /* 	
 div.gallery{

@@ -1,4 +1,8 @@
 /* the style for the nav */
+* {
+  box-sizing: border-box;
+}
+
 body {
 	margin: 0;
 	background-color:  #000000;
@@ -36,20 +40,41 @@ ul.topnav li.right {float: right;}
 
 /* the site identity */
 
-.site_identity{
+.header{
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;
-	padding: 10px;
+	padding: 10px 32px;
 }
 
 /* the style for the gallery */
+.row {
+  display: -ms-flexbox; /* IE10 */
+  display: flex;
+  -ms-flex-wrap: wrap; /* IE10 */
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
 
 .column{
-	max-width: 33.33%;
-	height: 100%;
+	max-width: 100%;
+	height: auto;
 	padding: 0 4px;
+}
+.column ing{
+	margin-top: 8px;
+	vertical-align: top;
+	width: 100%;
 }
 
 .column img:hover{
 	filter: grayscale(100%);
+	
 }
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    -ms-flex: 50%;
+    flex: 50%;
+    max-width: 50%;
+  }

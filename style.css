@@ -50,9 +50,8 @@ ul.topnav li.right {float: right;}
 /* the style for the gallery */
 .row{
 	float: left;
-	max-width: 33.33%;
-	min-height:360px
-	padding: 5px;
+	width: 33.33%;
+	padding: 200px;
 	
 }
 

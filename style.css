@@ -38,6 +38,8 @@ ul.topnav li.right {float: right;}
 .gallery{
 	float: left;
 	width: 33.33%;
+	max-width: 500em;
+	margin: auto;
 	padding: 10px;
 }
 

@@ -48,16 +48,28 @@ ul.topnav li.right {float: right;}
 }
 
 /* the style for the gallery */
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; 
+}
+
 .image{
 	float: left;
 	width: 33.33%;
 	padding: 200px;
 }
 
-.gallery:after{
+.gallery{
 	margin: 0;
-	clear: both;
-	display: image;
+	display: grid;
+}
+
+.gallery img{
+	width:33.33%;
+	height:100%
+	object-fit:cover;
 }
 
 .gallery img:hover{

@@ -69,12 +69,12 @@ h3 {
 	vertical-align:top;
 }
 
-/* .gallery {
-	max-width: 100%;
-	height: auto;
-} */
+.row:after {
+  display: table;
+  clear: both;
+}
 	
-*, *:before, *:after {
+*:before, *:after {
     box-sizing: inherit;
 }
 
@@ -83,9 +83,9 @@ div.gallery img:hover{
 }
 
 /* Style the container/contact section */
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 /* Create two columns that float next to eachother */
 .column {

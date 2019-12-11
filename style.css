@@ -46,18 +46,18 @@ ul.topnav li.right {float: right;}
 
 h1 {
 	text-align: left;
-	padding: 20px 0px 0 20px;
+	padding: 0;
 	font-size: 32px;
 }
 
 h2 {
   	text-align: left;
-	padding: 0 0 20px 20px;
+	padding: 0;
 }
 
 h3 {
 	text-align: right;
-	padding:0 0 20px 0;
+	padding: 0;
 	
 /* the style for the gallery */
 * {
@@ -97,7 +97,7 @@ div.gallery img:hover{
 /* Create two columns that float next to eachother */
 .column {
   float: left;
-  width: 50%;
+  width: 100%;
   margin-top: 6px;
   padding: 20px;
 }

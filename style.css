@@ -43,30 +43,29 @@ ul.topnav li.right {float: right;}
 .header{
 	font-family: Arial, Helvetica, sans-serif;
 	color: white;
-	text-align: center;
   	padding: 32px;
 }
 
 /* the style for the gallery */
 .row {
+	display: -ms-flexbox; /* IE10 */
 	display: flex;
-	-ms-flex-wrap: wrap;
+	-ms-flex-wrap: wrap; /* IE10 */
 	flex-wrap: wrap;
 	padding: 0 4px;
 }
 
 .column{
-	-ms-flex: 33.33%; /* IE10 */
-  	flex: 33.33%;
-  	max-width: 33.33%;
+	float: left;
+	width: 33.33%;
+	padding: 10px;
 	height: 400px;
-  	padding: 0 4px;
 }
 
 .column ing{
 	margin-top: 8px;
-  	vertical-align: top;
-  	width: 100%;
+	vertical-align: middle;
+	width: 100%;
 }
 
 .column img:hover{

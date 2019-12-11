@@ -2,7 +2,6 @@
 body {
 	margin: 0;
 	background-color:  #000000;
-	padding: 20em
 	color: white;
 }
 
@@ -35,12 +34,16 @@ ul.topnav li.right {float: right;}
   ul.topnav li {float: none;}
 }
 
+/* the site identity */
+.site_identity{
+	padding: 30em;
+}
+
 /* the style for the gallery */
 .gallery{
 	float: left;
 	width: 33.33%;
-	max-width: 500em;
-	margin: auto;
+	padding: 30em
 }
 
 .gallery img:hover{

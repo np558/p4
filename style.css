@@ -73,10 +73,10 @@ h3 {
 	height: auto;
 }
 	
-*:before, *:after {
+/* *:before, *:after {
     box-sizing: inherit;
 }
-
+ */
 div.gallery img:hover{
 	filter: grayscale(100%);
 }

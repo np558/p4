@@ -51,25 +51,32 @@ ul.topnav li.right {float: right;}
   box-sizing: inherit; 
 }
  */
-.image{
+div.gallery{
 	float: left;
-	width: 33.33%;
-	height: 360px;
+	width: 100%;
 	padding: 0;
-}
-
-.gallery{
-	margin: 0;
+	margin: 5px;
 	display: grid;
 }
 
-.gallery img{
+div.gallery img{
 	width:33.33%;
-	height:100%
+	height:auto;
 	object-fit:cover;
 }
 
-.gallery img:hover{
+div.gallery img:hover{
 	filter: grayscale(100%);
 }
 
+div.gallery {
+  margin: 5px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 180px;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}

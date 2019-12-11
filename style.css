@@ -55,28 +55,25 @@ h2 {
 h3 {
 	text-align: right;
 	padding: 0 20px 0 0;
+}
 	
 /* the style for the gallery */
 * {
-  box-sizing: border-box;
+  box-sizing: content-box;
 }
 
 .img-container {
 	float: left;
 	width: 33.33%;
 	padding: 10px;
-	vertical-align:top;
 }
 
 .gallery::after {
-	display: grid;
-	height: auto;
-}
+	content: "";
+	clear: both;
+	display: table;
+}	
 	
-/* *:before, *:after {
-    box-sizing: inherit;
-}
- */
 div.gallery img:hover{
 	filter: grayscale(100%);
 }

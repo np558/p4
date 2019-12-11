@@ -35,6 +35,13 @@ ul.topnav li.right {float: right;}
 }
 
 /* the style for the gallery */
+.gallery{
+	max-width: 500%;
+	margin: auto;
+	background: white;
+	padding: 10px;
+}
+
 .gallery img:hover{
 	filter: grayscale(100%);
 }

@@ -36,9 +36,8 @@ ul.topnav li.right {float: right;}
 
 /* the style for the gallery */
 .gallery{
-	max-width: 500%;
+	max-width: 500em;
 	margin: auto;
-	background: white;
 	padding: 10px;
 }
 

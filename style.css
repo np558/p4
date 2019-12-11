@@ -51,8 +51,8 @@ ul.topnav li.right {float: right;}
 }
 
 .column{
-	max-width: 33.33%
-	max-height: 520px;
+	max-width: 100%
+	max-height: 400px;
 	padding: 10px;
 }
 .column ing{

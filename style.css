@@ -51,7 +51,7 @@ ul.topnav li.right {float: right;}
 }
 
 .column{
-	max-width: 360px;
+	max-width: 100%;
 	max-height: 360px;
 	padding: 10px;
 }

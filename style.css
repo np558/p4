@@ -59,7 +59,7 @@ h3 {
 	
 /* the style for the gallery */
 * {
-  box-sizing: content-box;
+  box-sizing: border-box;
 }
 
 .img-container {

@@ -119,4 +119,21 @@ input[type=submit] {
 input[type=submit]:hover {
   background-color: #45a049;
 }
+/* 
+this is the blog page */
 
+* {
+  box-sizing: border-box;
+}
+
+.entry {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}

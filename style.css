@@ -147,3 +147,20 @@ this is the blog page */
 .portfolio-container{
 padding:0 32px;
 }
+
+.col m6 {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+.row-padding padding-16 {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.pack{
+  padding: 0 0 0 32px;
+}

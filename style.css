@@ -144,12 +144,15 @@ this is the blog page */
 
 /* this is the portfolio page */
 
+.container padding-large{
+   padding: 0 32px;
+}
 .portfolio-container{
-padding:0 32px;
+   padding:0 32px;
 }
 
 .grey{
-color: white;
+  color: white;
 }
 
 .col m6 {

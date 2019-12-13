@@ -148,6 +148,10 @@ this is the blog page */
 padding:0 32px;
 }
 
+.grey{
+color: white;
+}
+
 .col m6 {
   float: left;
   width: 50%;

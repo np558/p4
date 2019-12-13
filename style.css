@@ -141,3 +141,9 @@ this is the blog page */
 .content-wrap{
 	text-align: center;
 }
+
+/* this is the portfolio page */
+
+.portfolio-container{
+padding:0 32px;
+}
